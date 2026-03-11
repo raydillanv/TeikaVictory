@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8019533037141634062
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3885664334347900500, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_Radius
+      value: 0.54266423
+      objectReference: {fileID: 0}
+    - target: {fileID: -3885664334347900500, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.013508548
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059637206090142034, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_Name
+      value: ballTennis
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390130872937932387, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 488903730692909379, guid: c8860724674944963bfac6e17c0f5091, type: 3}
+    - target: {fileID: 6023431833727920720, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: BallType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125924410866722777, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -8057728622897432586, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3059637206090142034, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6847657339162641301}
+  m_SourcePrefab: {fileID: 100100000, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+--- !u!1 &4989171565376863580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3059637206090142034, guid: 3f99f13b423da499590866775608d2d5, type: 3}
+  m_PrefabInstance: {fileID: 8019533037141634062}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &6847657339162641301
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4989171565376863580}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5199999
