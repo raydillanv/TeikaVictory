@@ -11,7 +11,7 @@ public class BackgroundManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        pivotPoint = scale * 16 * -0.32f;
+        //pivotPoint = scale * 16 * -0.32f;
         bckPrefab.transform.localScale = new Vector3(scale, scale, 0.0f);
         bcks = new GameObject[3];
         for (int i = 0 ; i < 3; i++)
@@ -28,8 +28,8 @@ public class BackgroundManager : MonoBehaviour
     {
         for (int i = 0 ; i < 3; i++)
         {
-            float xPos = bcks[i].transform.position.x + speed;
-            float yPos = bcks[i].transform.position.y + speed;
+            float xPos = bcks[i].transform.position.x + speed * Time.deltaTime;
+            float yPos = bcks[i].transform.position.y + speed * Time.deltaTime;
             Vector3 pos = new Vector3(xPos, yPos, 0.0f);
             
             if (bcks[i].transform.position.x > -pivotPoint / 2)
