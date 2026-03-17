@@ -158,7 +158,7 @@ public class PlayerBehavior : MonoBehaviour
         //Better way of doing this is with a collider and an on trigger collider instead of hardcoded min and max values
         
         Vector3 newPos = transform.position;
-        newPos.x = newPos.x + offset;
+        newPos.x = newPos.x + offset * Time.deltaTime;
 
         //Checks if player is trying to go past max X
         if (newPos.x > max)
